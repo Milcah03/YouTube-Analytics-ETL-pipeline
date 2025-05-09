@@ -8,16 +8,16 @@ This project automates the extraction, transformation, and loading (ETL) of YouT
 - YouTube Data API v3  
 - Apache Airflow (workflow orchestration)  
 - pandas (data processing)  
-- PostgreSQL (optional for data storage)  
+- PostgreSQL (data storage)  
 - dotenv (env management)
 
 📁 **Project Structure**
 
 ├── youtube_extract.py              # Extracts video data from YouTube  
-├── youtube_transform.py            # Transforms and enriches the data  
-├── youtube_load.py                 # Saves data to CSV/PostgreSQL  
+├── youtube_transform.py            # Transforms the data  
+├── youtube_load.py                 # Saves data to PostgreSQL  
 ├── dags/youtube_etl_dag.py         # Airflow DAG definition  
-├── .env                            # Environment variables (excluded from Git)  
+├── .env                            # Environment variables  
 ├── alex_videos.csv                 # Raw extracted data  
 ├── youtube_alex_data_transformed.csv  # Cleaned/transformed data  
 ├── README.md                       # Project documentation  
