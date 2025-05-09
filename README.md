@@ -22,7 +22,7 @@ This project automates the extraction, transformation, and loading (ETL) of YouT
 ├── youtube_alex_data_transformed.csv  # Cleaned/transformed data  
 ├── README.md                       # Project documentation  
 
-🔁** How It Works**
+🔁**How It Works**
 
 1. **Extract**  
    Uses YouTube API to fetch video metadata from a channel playlist.
@@ -33,11 +33,11 @@ This project automates the extraction, transformation, and loading (ETL) of YouT
 3. **Load**  
    Saves the cleaned dataset to a database.
 
-✅** Use Cases**
+✅ **Use Cases**
 
 - YouTube performance analytics  
 - Content strategy reporting  
 - Automated creator dashboards
 
-📖 **Article ** 
+📖 **Article** 
 Step-by-step write-up coming soon on
